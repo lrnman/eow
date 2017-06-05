@@ -1,0 +1,99 @@
+.wrapper #head {
+	padding: 50px 0;
+	text-align: center;
+}
+
+.wrapper #head .p {
+	font-size: 18px;
+}
+
+.wrapper #head .bold {
+	font-weight: bold;
+	margin: 5px 0;
+	font-size: 18px;
+}
+
+.wrapper #ways {
+	height: 185px;
+	padding: 50px 0;
+	border-top: 1px solid #e6e6e6;
+}
+
+.wrapper #ways ul li {
+	width: 33%;
+	height: 180px;
+	text-align: center;
+    line-height: 25px;
+    color: #343434;
+    font-size: 14px;
+    float: left;
+}
+
+.wrapper #ways ul li .box {
+	margin: 0 auto;
+	width: 66px;
+	height: 66px;
+	margin-bottom: 6px;
+	background: url("../img/contact-bg.png") no-repeat;
+	-webkit-background-size: cover;
+	background-size:  cover;
+	/*border: 1px solid black;*/
+	border-radius: 100%;
+	overflow: hidden;
+}
+
+.wrapper #ways ul li .box img {
+	position: relative;
+}
+
+.wrapper #ways ul li .box .address {
+	top: 18px;
+	animation: address 0.8s infinite alternate ease;
+}
+
+@keyframes address {
+	0% { top: 8px}
+	100% { top: 20px }
+}
+
+.wrapper #ways ul li .box .phone {
+	top: 20px;
+	animation: phone 0.6s infinite alternate linear;
+}
+
+@keyframes phone {
+	0% { transform: rotate(50deg); }
+	100% { transform: rotate(-12deg); }
+}
+
+.wrapper #ways ul li .box .email {
+	top: 22px;
+	left: -46px;
+	animation: email 1.5s infinite ease;
+}
+
+#a_email {
+	color: red;
+}
+
+#a_email:hover {
+	color: black;
+}
+
+@keyframes email {
+	0% { }
+	100% {left: 46px}
+}
+
+.wrapper #map {
+	overflow: hidden;
+}
+
+.wrapper #map img {
+	position: relative;
+	height: 609px;
+	width: 1920px;
+	display: block;
+	left: 50%;
+	margin-left: -960px;
+}

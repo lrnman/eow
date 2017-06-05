@@ -1,0 +1,86 @@
+.wrapper .head {
+	height: 214px;
+	font-size: 14px;
+}
+
+.wrapper .head p.path {
+	padding: 50px 0;
+}
+
+.wrapper .head p.path a {
+	display: inline;
+	color: #000000;
+}
+
+.wrapper .head p.path a:hover {
+	color: red;
+}
+
+.wrapper .head .title{
+	text-align: center;
+}
+
+.wrapper .head .title .p {
+	font-size: 18px;
+}
+
+.wrapper .head .title .bold {
+	font-weight: bold;
+	margin: 5px 0;
+	font-size: 18px;
+}
+
+.wrapper #content {
+	margin-bottom: 50px;
+}
+
+.wrapper #content #title {
+	margin-bottom: 25px;
+}
+
+.wrapper #content #title .red {
+	font-size: 24px;
+	color: #D43B33;
+	text-align: center;
+	line-height: 25px;
+}
+
+.wrapper #content #player {
+	width: 660px;
+	height: 500px;
+	background-color: #222222;
+	overflow: hidden;
+	float: left;
+}
+
+.wrapper #content #player object, .wrapper #content #player video, .wrapper #content #player embed{
+	width: 660px;
+	height: 500px;
+}
+
+.wrapper #content #list {
+	width: 310px;
+	height: 450px;
+	background-color: #000000;
+	padding: 25px 15px 25px 15px;
+	float: left;
+}
+
+.wrapper #content #list ul li {
+	height: 40px;
+	background-color: #585858;
+	margin-bottom: 5px;
+}
+
+.wrapper #content #list ul li a {
+	padding-left: 10px;
+	height: 40px;
+	line-height: 40px;
+	color: #D6D6D6;
+}
+
+.wrapper #content #list ul li:hover {
+	height: 40px;
+	background-color: #D64F49;
+	margin-bottom: 5px;
+}

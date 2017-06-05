@@ -1,0 +1,507 @@
+/*aboutus start*/
+div.warpper div#aboutus {
+	width: 1000px;
+	height: 229px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+div.warpper div#aboutus div.head-box {
+	border-bottom: 1px solid #CBCBCB;
+}
+
+div.warpper div#aboutus div.head-box div.title-box {
+	width: 180px;
+	height: 52px;
+	margin: 0 auto -7px;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+
+div.warpper div#aboutus div.head-box div.title-box p.p {
+	font-size: 19px;
+	color: #626262;
+}
+
+div.warpper div#aboutus div.head-box div.title-box p.p-red {
+	font-size: 18px;
+	font-weight: bold;
+	color: #D43B33;
+}
+
+div.warpper div#aboutus div.content-box {
+	margin: 34px auto 0 auto;
+	text-align: center;
+}
+
+div.warpper div#aboutus div.content-box p.p {
+	font-size: 12px;
+	line-height: 28px;
+	color: #626262;
+}
+
+div.warpper div#aboutus div.content-box p.p-bold {
+	font-size: 12px;
+	line-height: 28px;
+	font-weight: bold;
+	color: #626262;
+}
+
+div.warpper div#aboutus div.foot-box {
+	margin: 0 auto;
+	width: 112px;
+	height: 38px;
+	text-align: center;
+	margin-top: 24px;
+}
+
+div.warpper div#aboutus div.foot-box a {
+	width: 108px;
+	height: 38px;
+	font-size: 12px;
+	line-height: 38px;
+	display: block;
+	background-image: url(../img/more_more_bg.png);
+	background-repeat: no-repeat;
+	color: #333333;
+}
+
+div.warpper div#aboutus div.foot-box a:hover {
+	color: #D43B33;
+}
+
+div.warpper div#information {
+	width: 100%;
+	height: 412px;
+}
+
+div.warpper div#information div.top {
+	height: 94px;
+	border-bottom: 1px solid #c0c0c0;
+}
+
+div.warpper div#information div.top div#label {
+	position: relative;
+	margin: 0 auto;
+	top: 61px;
+	width: 343px;
+}
+
+div.warpper div#information div.top div.nav-block {
+	border: 1px solid #c0c0c0;
+	border-bottom: 1px solid #c0c0c0;
+	float: left;
+	background-color: #626262;
+	margin: 0 5px 0 5px;
+	font-size: 14px;
+	line-height: 32px;
+	padding: 0 25px 0 25px;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+div.warpper div#information div.top div.information-now {
+	background-color: #ffffff;
+	border-bottom: 1px solid #FFFFFF;
+	color: #d43b33;
+}
+
+div.warpper div#information .info {
+	height: 270px;
+	display: none;
+}
+
+div.warpper div#information .info-now {
+	display: block;
+}
+
+div.warpper div#information .civilization {
+	background-image: url(../img/civilization.png) ;
+	background-repeat: no-repeat;
+	background-position: 108px center;
+}
+
+div.warpper div#information div.civilization .words {
+	position: relative;
+	width: 446px;
+	height: 182px;
+	top: 43px;
+	left: 476px;
+	padding-left: 15px;
+}
+
+div.warpper div#information .info .words p{
+	line-height: 23px;
+	color: #585858;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+div.warpper div#information .info .words .head {
+	font-weight: normal;
+}
+
+div.warpper div#information .team {
+	background: url("../img/team.png") no-repeat;
+	background-position: 20px center;
+}
+
+div.warpper div#information .team .words{
+	width: 600px;
+	height: 188px;
+	position: relative;
+	top: 41px;
+	left: 362px;
+	overflow: hidden;
+}
+
+div.warpper div#information .team .words .p {
+	text-indent: 6mm;
+	word-break:break-all;
+}
+
+div.warpper div#information .recent {
+	padding-top: 44px;
+}
+
+div.warpper div#information .recent li{
+	width: 250px;
+	height: 174px;
+	background-color: #4b4b4b;
+	float: left;
+	color: #FFFFFF;
+}
+
+div.warpper div#information .recent li .date {
+	font-size: 14px;
+	line-height: 30px;
+	margin: 48px 0 0 20px;
+}
+
+div.warpper div#information .recent li .p {
+	font-size: 12px;
+	line-height: 18px;
+	padding: 10px 20px;
+	word-break: break-all;
+}
+/*aboutus end*/
+
+/*project start*/
+div.warpper div#project {
+	height: 340px;
+	width: 100%;
+	padding-top: 42px;
+	background-image: url(../img/index_02.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+div.warpper div#project div#top p.p {
+	font-size: 18px;
+	text-align: center;
+} 
+
+div.warpper div#project div#top p.bold {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+} 
+
+div.warpper div#project div#bar {
+	height: 148px;
+	margin-top: 48px;
+}
+
+div.warpper div#project div#bar div#photo {
+	width: 938px;
+	height: 150px;
+	margin: 0 auto;
+}
+
+#photo .photo-box {
+	width: 936px;
+	height: 150px;
+	overflow: hidden;
+	position: absolute;
+}
+
+div.warpper div#project div#bar div#photo .photo-box li {
+	float: left;
+	margin-right: 2px;
+}
+
+div.warpper div#project div#bar div#photo .photo-box li a {
+	display: block;
+	width: 310px;
+	height: 150px;
+}
+
+div.warpper div#project div#bar div#photo li a img {
+	width: 310px;
+	height: 150px;
+}
+
+div.warpper div#project div#bar div#photo .photo-text {
+	position: relative;
+	padding: 0 10px;
+	bottom: 30px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+	background-color: black;
+	opacity: 0.5;
+	color: #ffffff;
+	padding-left: 30px;
+	transition: all 0.6s ease;
+	overflow: hidden;
+	word-break: break-all;
+}
+
+div.warpper div#project div#bar div#photo .photo-text p {
+	font-size: 14px;
+	text-indent: 4mm;
+}
+
+div.warpper div#project div#bar div#photo li:hover .photo-text{
+	height: 150px;
+	bottom: 150px;
+	opacity: 0.8;
+	font-size: 16px;
+}
+
+#photo .slider-option-prev {
+	left: -32px;
+	margin-top: -57px;
+	width: 20px;
+	height: 148px;
+	background: url("../img/btnleft.png");
+}
+
+#photo .slider-option-next {
+	right: -32px;
+	margin-top: -57px;
+	width: 20px;
+	height: 148px;
+	background-color: green;
+	background: url("../img/btnright.png");
+}
+
+#photo .slider-option-prev:hover,
+#photo .slider-option-next:hover {
+	opacity: 1;
+}
+
+	/*project end*/
+
+/*news-msg start*/
+div.warpper div#news-msg {
+	height: 430px;
+	padding-top: 32px;
+}
+
+div.warpper div#news-msg div#news {
+	float: left;
+	height: 392px;
+	width: 462px;
+	margin-right: 30px;
+}
+
+div.warpper div#news-msg div.top {
+	margin-bottom: 10px;
+}
+
+div.warpper div#news-msg div.top p.p {
+	font-size: 16px;
+}
+
+div.warpper div#news-msg div.top p.red {
+	font-weight: bold;
+	font-size: 18px;
+	color: #d43b33;
+}
+
+div.warpper div#news-msg div#news div.news-list li {
+	font-size: 12px;
+	border-bottom: dashed 1px #cacaca;
+	line-height: 35px;
+}
+
+div.warpper div#news-msg div#news div.news-list li  a {
+	color: #332c2b;
+}
+
+div.warpper div#news-msg div#news div.news-list li  a:hover {
+	color: #d43b33;
+}
+
+
+div.warpper div#news-msg div#news div.news-list li span {
+	float: right;
+	color: #cccbca;
+}
+
+div.warpper div#news-msg div#msg {
+	float: left;
+	height: 392px;
+	width: 500px;
+	position: relative;
+}
+
+div.warpper div#news-msg div#news div.bottom {
+	padding-top: 20px;
+}
+
+div.warpper div#news-msg div#news div.bottom a {
+	font-style: italic;
+	color: #333;
+}
+
+div.warpper div#news-msg div#news div.bottom a:hover {
+	color: red;
+}
+
+div.warpper div#news-msg div#msg form #name {
+	width: 213px;
+	float: left;
+}
+
+div.warpper div#news-msg div#msg form #email {
+	margin-left: 10px;
+	width: 213px;
+	float: left;
+}
+
+div.warpper div#news-msg div#msg form #phone {
+	width: 213px;
+	float: left;
+}
+
+
+div.warpper div#news-msg div#msg form #vd-box {
+	float: left;
+	margin-left: 10px;
+	width: 213px;
+}
+div.warpper div#news-msg div#msg form #vd-box input {
+	width: 94px;
+}
+
+div.warpper div#news-msg div#msg form #vd-box #canvas {
+    position: absolute;
+    margin-left: 4px;
+	cursor: pointer;
+    border: solid 1px #d5d5d4;
+}
+
+div.warpper div#news-msg div#msg form textarea {
+	height: 165px;
+	width: 468px;
+	font-size: 16px;
+	resize: none;
+}
+
+form input, form textarea {
+	padding: 10px 15px;
+	border: solid 1px #d5d5d4;
+	color: grey;
+	margin: 5px 0;
+	font-size: 12px;
+}
+
+div.warpper div#news-msg div#msg div#bottom p {
+	line-height: 40px;
+	font-weight: bold;
+	font-size: 12px;
+	width: 350px;
+	float: left;
+}
+
+div.warpper div#news-msg div#msg div#bottom p #red {
+	display: inline-block;
+	color: #743234;
+	font-weight: normal;
+}
+
+div.warpper div#news-msg div#msg div#bottom p #red:hover {
+	color: #F51416;
+}
+
+div.warpper div#news-msg div#msg div#bottom input#msg-submit {
+	width: 130px;
+	float: right;
+	cursor: pointer;
+}
+
+form input.submit {
+	background: #5e5e5e;
+	color: #fff;
+	width: 130px;
+	border: none;
+	padding: 6px 8px;
+	font-size: 14px;
+	font-weight: bold;
+	box-shadow: 0 0 5px #747876;
+}
+
+form input.submit:hover {
+	background: #000;
+}
+
+/*news-msg end*/
+
+/*设置头部bar的动画*/
+div.header div.bar {
+    height: 1000px;
+}
+
+div.header div.bar .before {
+    opacity: 1;
+    height: 1000px;
+}
+
+div.header div.bar .after {
+    opacity: 0;
+    height: 1000px;
+}
+
+div.header div.bar #mask {
+    height: 1000px;
+}
+
+div.header div.bar .sentence {
+    top: 325px;
+    font-size: 60px;
+    letter-spacing: 10px;
+}
+
+div.header div.bar,
+div.header div.bar .before,
+div.header div.bar .after,
+div.header div.bar #mask,
+div.header div.bar .sentence {
+	transition: all 0.8s ease;
+}
+
+/*向下箭头*/
+#arrow_bottom {
+	display: none;
+	width: 80px;
+	height: 50px;
+	background-image: url("../img/arrow-bottom.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: fixed;
+	left: 50%;
+	margin-left: -40px;
+	margin-bottom: -40px;
+	opacity: 0.6;
+	animation: bottom-arrow 0.6s infinite alternate ease;
+}
+
+@keyframes bottom-arrow {
+	0% {}
+	100% {
+		margin-top: -30px;
+	}
+}
+

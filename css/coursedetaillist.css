@@ -1,0 +1,92 @@
+.wrapper .titlecontainer {
+	height: 214px;
+	font-size: 14px;
+}
+
+.wrapper .titlecontainer p.path {
+	padding: 50px 0;
+}
+
+.wrapper .titlecontainer p.path a {
+	display: inline;
+	color: #000000;
+}
+
+.wrapper .titlecontainer p.path a:hover {
+	color: red;
+}
+
+.wrapper .titlecontainer .red {
+	font-size: 24px;
+	color: #D43B33;
+	text-align: center;
+	line-height: 180%;
+}
+
+.wrapper .titlecontainer .p {
+	padding: 10px 0px 25px 0px;
+	text-align: center;
+	color: #666;
+	font-size: 14px;
+}
+
+.wrapper .intermediate .labeltitle {
+	height: 23px;
+	background: url(../img/labeltitle.gif) left 10px repeat-x;
+	overflow: hidden;
+	padding-top: 10px;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+.wrapper .intermediate .labeltitle .bold {
+	font-weight: bold;
+	width: 80px;
+	height: 23px;
+	line-height: 23px;
+	text-align: center;
+	color: #FFF;
+	letter-spacing: 1px;
+	background: url(../img/labeltitle.gif) left -44px no-repeat;
+}
+
+.wrapper .intermediate .label {
+	padding: 20px;
+	float: left;
+}
+
+.wrapper .intermediate .label a {
+	height: 30px;
+	display: inline-block;
+	line-height: 30px;
+	background-color: #D43B33;
+	color: #FFFFFF;
+	padding: 0 20px;
+	font-size: 16px;
+}
+
+.wrapper .intermediate .label a:hover {
+	background-color: #E5E5E5;
+	color: #999999;
+}
+
+.wrapper .intermediate .info {
+	padding: 35px 20px;
+}
+
+.wrapper .bottom {
+	padding: 10px 0px 50px 30px;
+	color: #b8200d;
+	line-height: 150%;
+	font-size: 12px;
+}
+
+.wrapper .bottom p a {
+	display: inline-block;
+	margin-right: 60px;
+	color: #333333;
+}
+
+.wrapper .bottom p a:hover {
+	color: #b8200d;
+}

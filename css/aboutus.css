@@ -1,0 +1,200 @@
+.wrapper #aboutus {
+	height: 370px;
+	margin-top: 50px;
+	padding-bottom: 30px;
+}
+
+.wrapper #aboutus .head-box {
+	height: 46px;
+	border-bottom: 1px solid #cbcbcb;
+	margin-bottom: 40px;
+}
+
+.wrapper #aboutus .head-box .title-box {
+	width: 180px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+
+.wrapper #aboutus .head-box .title-box .p {
+	color: #626262;
+	font-size: 19px;
+	font-weight: 100;
+}
+
+.wrapper #aboutus .head-box .title-box .red {
+	font-size: 18px;
+	color: #d43b33;
+	margin: 5px;	
+	font-weight: bold;
+}
+
+.wrapper #aboutus .content-box {
+	text-align: center;
+}
+
+.wrapper #aboutus .content-box .p {
+	color: #626262;
+	font-size: 12px;
+	line-height: 28px;
+}
+
+.wrapper #aboutus .content-box .bold {
+	font-weight: bold;
+	color: #626262;
+	font-size: 12px;
+	line-height: 28px;
+}
+
+.wrapper #aboutus .content-box .e {
+	color: #626262;
+	font-size: 10px;
+	line-height: 28px;
+}
+
+.wrapper #culture {
+	height: 323px;
+	padding-top: 68px;
+	padding-bottom: 68px;
+	background: url(../img/index_02.png);
+	overflow: hidden;
+}
+
+.wrapper #culture #wrapper #left {
+	width: 300px;
+	float: left;
+	margin-right: 50px;
+	margin-left: 60px;
+}
+
+.wrapper #culture #wrapper #left .top {
+	margin-bottom: 13px;
+}
+
+.wrapper #culture #wrapper #left p{
+	text-align: right;
+}
+
+.wrapper #culture #wrapper #left .top .p {
+	font-size: 16px;
+}
+
+.wrapper #culture #wrapper #left .top .red {
+	font-size: 18px;
+    color: #d43b33;
+    font-weight: bold;
+}
+
+.wrapper #culture #wrapper #left .list li{
+	line-height: 30px;
+	border-bottom: 1px solid #bebebe;
+	color: #585858;
+    font-size: 12px
+}
+
+.wrapper #culture #wrapper #left .list li .head {
+	color: #000;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.wrapper #culture #wrapper #right {
+	float: left;
+	position: relative;
+}
+
+.wrapper #culture #wrapper #right img {
+	position: absolute;
+	left: 1500px;
+	transition: left 1s ease;
+}
+
+.wrapper #project {
+	padding-top: 50px;
+	padding-bottom: 120px;
+}
+
+.wrapper #project #top {
+	text-align: center;
+}
+
+.wrapper #project #top .title {
+	font-size: 18px;
+}
+
+.wrapper #project #top .bold {
+	font-weight: bold;
+	margin: 5px 0;
+	margin-bottom: 50px;
+}
+
+.wrapper #project #top .p {
+	font-size: 14px;
+	color: #424242;
+	padding-bottom: 30px;
+}
+
+.wrapper #project #list li {
+	position: relative;
+	bottom: 0;
+	width: 250px;
+	height: 174px;
+	background-color: #4b4b4b;
+	float: left;
+	color: #FFFFFF;
+	transition: all 0.4s ease;
+}
+
+.wrapper #project #list li:hover{
+	bottom: 10px;
+}
+
+.wrapper #project #list li .date {
+	font-size: 14px;
+	line-height: 30px;
+	margin: 48px 0 0 20px;
+}
+
+.wrapper #project #list li .p {
+	font-size: 12px;
+	line-height: 18px;
+	padding: 10px 20px;
+}
+
+.wrapper #project #bottom {
+	background-color: #d43b33;
+	height: 52px;
+	color: #FFFFFF;
+	line-height: 52px;
+	text-align: center;
+}
+
+.wrapper #project #bottom span {
+	position: relative;
+	display: inline-block;
+	top: 0;
+}
+
+.wrapper #project #bottom .a {
+	animation: dot 0.5s linear infinite;
+}
+
+.wrapper #project #bottom .b {
+	animation: dot 0.5s linear 0.125s infinite;
+}
+
+.wrapper #project #bottom .c {
+	animation: dot 0.5s linear 0.25s infinite;
+}
+
+@keyframes dot {
+	0% {}
+	50% {
+		top: -5px;
+	}
+	100% {
+		top: 0px;
+	}
+}
+

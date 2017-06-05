@@ -1,0 +1,58 @@
+.wrapper .head {
+	padding-top: 50px;
+	text-align: center;
+}
+
+.wrapper .head .p {
+	font-size: 18px;
+}
+
+.wrapper .head .bold {
+	font-weight: bold;
+	margin: 5px 0;
+	font-size: 18px;
+}
+
+.wrapper #top #list {
+	padding: 0 50px;
+}
+
+.wrapper #top #list ul {
+	padding-top: 50px;
+	padding-bottom: 70px;
+}
+
+.wrapper #top #list ul li {
+	float: left;
+	width: 404px;
+	height: 240px;
+	margin: 15px 23px;
+}
+
+.wrapper #top #list ul li a {
+	width: 404px;
+	height: 240px;
+}
+
+.wrapper #top #list ul li a img {
+	display: block;
+	width: 404px;
+	height: 190px;
+}
+
+.wrapper #top #list ul li a p {
+	color: #FFFFFF;
+	background-color: #222222;
+	text-align: center;
+	height: 50px;
+	width: 404px;
+	line-height: 50px;
+	position: relative;
+	bottom: 5px;
+	display: block;
+	margin-top: -1px;
+}
+
+.wrapper #top #list ul li:hover a p {
+	background-color: #d43b33;
+}

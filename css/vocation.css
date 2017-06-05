@@ -1,0 +1,156 @@
+a {
+	color: #666666;
+}
+
+.wrapper #head {
+	padding-top: 50px;
+	text-align: center;
+}
+
+.wrapper #head .p {
+	font-size: 18px;
+}
+
+.wrapper #head .bold {
+	font-weight: bold;
+	margin: 5px 0;
+	font-size: 18px;
+}
+
+.wrapper nav {
+	margin-top: 50px;
+}
+
+.wrapper nav ul {
+	width: 660px;
+	margin: 0 auto;
+}
+
+.wrapper nav ul li {
+	text-align: center;
+	float: left;
+	width: 330px;
+}
+
+.wrapper nav ul li a {
+	height: 40px;
+	line-height: 35px;
+	display: block;
+	color: #000000;
+}
+
+.wrapper nav ul li.current-position-nav {
+	background-image: url(../img/tapbg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: red;
+}
+
+.wrapper nav ul li:hover a {
+	color: red;
+}
+
+#content ul {
+	display: none;
+}
+
+#content .content-now {
+	display: block;
+}
+
+.wrapper #content ul li {
+	height: 200px;
+	width: 480px;
+	margin: 15px 20px 20px 0;
+}
+
+.wrapper #content ul li a.img_a img {
+	height: 200px;
+	width: 200px;
+	float: left;
+}
+
+.wrapper #content ul li {
+	float: left;
+}
+
+.wrapper #content ul li div.right {
+	padding: 28px 30px 0 30px;
+	width: 220px;
+	height: 172px;
+	float: left;
+	background-color: #f2f2f2;
+}
+
+.wrapper #content ul li div.right p {
+	color: #666666;
+	font-size: 12px;
+}
+
+.wrapper #content ul li div.right .title {
+	overflow: hidden;
+	margin: 0 0 5px;
+	font-size: 16px;
+	width: 220px;
+	height: 21px;
+}
+
+.wrapper #content ul li div.right .date {
+	margin-bottom: 30px;
+}
+
+.wrapper #content ul li div.right .p {
+	width: 220px;
+	height: 80px;
+	text-overflow: ellipsis;
+	overflow: hidden; 
+}
+
+.wrapper #content ul li div.right a:hover p{
+	color: red;
+}
+
+.wrapper #button {
+	margin: 0 0 60px 0;
+}
+
+.wrapper #button ul li {
+	float: left;
+	background-color: #D8D8D8;
+	height: 35px;
+	text-align: center;
+	border-left: solid 1px #e7e9ea;
+	border-right: solid 1px #ebeeef;
+}
+
+.wrapper #button ul li.back {
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+}
+
+.wrapper #button ul li.forward {
+	font-size: 16px;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.wrapper #button ul li.back a, .wrapper #button ul li.forward a {
+	font-size: 16px;
+} 
+
+.wrapper #button ul li a {
+	line-height: 35px;
+	display: block;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0 15px;
+}
+
+.wrapper #button ul li:hover {
+	background: #b50900;
+}
+
+.wrapper #button ul li#current-position-page {
+	background: #b50900;
+}
