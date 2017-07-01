@@ -1,4 +1,4 @@
-window.addEvent(window, 'load', function () {
+$(function () {
     //刷新浏览器前先定位回顶部（IE不支持）
     window.addEvent(window, 'unload', unload);
     function unload (e){
@@ -168,20 +168,20 @@ window.addEvent(window, 'load', function () {
             }
         }
 
-    //    输入验证用户输入
+        //    输入验证用户输入
         window.addEvent(vdcode, 'keyup', function (e) {
             var val = vdcode.value;
-           if(val.toUpperCase() == txtCode) {
+            if(val.toUpperCase() == txtCode) {
                 vdcode.style.outline = '2px solid greenyellow';
-               isPass = true;
-               return;
-           } else {
-               vdcode.style.outline = '1px solid red';
-           }
-           isPass = false;
+                isPass = true;
+                return;
+            } else {
+                vdcode.style.outline = '1px solid red';
+            }
+            isPass = false;
         });
 
-    //    提交验证
+        //    提交验证
         var $submit = $('#msg-submit');
         var form = document.getElementById('form');
 
@@ -198,7 +198,7 @@ window.addEvent(window, 'load', function () {
             });
             $submit.val('成功送达');
         });
-        
+
         function reset() {
             isPass = false;
             txtCode = '';
